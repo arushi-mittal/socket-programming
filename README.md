@@ -1,4 +1,4 @@
-Networking Assignment
+# **Networking Assignment**
 
 There are two directories the server and client directory containing a server.c and client.c file respectively.
 
@@ -18,6 +18,35 @@ An important thing to note is that in case a file already exists in the client a
 Standard file handling procedures and libraries are used in order to ensure the program runs smoothly in addition to socket programming and networking libraries.
 
 
-Instructions to run:
+## **Instructions to run**:
+
+Open two terminals, one for the client and one for the server.
+
+First Terminal:
+  
+```bash
+$ cd socket-programming/server
+$ gcc server.c
+```
+
+Second Terminal:
+  
+```bash
+$ cd socket-programming/client
+$ gcc client.c
+```
+
+First Terminal:
+  
+```bash
+./a.out
+```
+
+Second Terminal:
+  
+```bash
+./a.out <command name> <args>
+```
+
 
 Open 2 terminal windows. In one, change to server directory and compile server.c and in the other compile client.c. Run server.c first and then run client.c followed by command name and arguments. Depending on the verification of the commands output will appear on both terminals. While server will display notifications when it receives a request, the progress and when the transfer is finished, client will display notifications when it receives the file size (or the file does not exist), the progress and when the transfer is completed.
