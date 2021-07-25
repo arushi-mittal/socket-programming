@@ -48,5 +48,4 @@ Second Terminal:
 ./a.out <command name> <args>
 ```
 
-
-Open 2 terminal windows. In one, change to server directory and compile server.c and in the other compile client.c. Run server.c first and then run client.c followed by command name and arguments. Depending on the verification of the commands output will appear on both terminals. While server will display notifications when it receives a request, the progress and when the transfer is finished, client will display notifications when it receives the file size (or the file does not exist), the progress and when the transfer is completed.
+Depending on the verification of the commands, output will appear on both terminals. While server will display notifications when it receives a request, the progress, and when the transfer is finished, client will display notifications when it receives the file size (or the file does not exist), the progress and when the transfer is completed.
